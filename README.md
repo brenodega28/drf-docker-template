@@ -1,4 +1,6 @@
-![DockerImage](dockerlogo.png)
+<p align="center">
+<img height="150" src="dockerlogo.png"/>
+</p>
 
 # Django DRF Template
 
