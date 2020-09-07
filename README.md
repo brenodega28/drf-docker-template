@@ -1,5 +1,5 @@
 <p align="center">
-<img height="150" src="dockerlogo.png"/>
+<img height="100" src="dockerlogo.png"/>
 </p>
 
 # Django DRF Template
