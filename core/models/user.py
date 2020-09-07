@@ -43,6 +43,8 @@ class User(AbstractBaseUser, PermissionsMixin):
         unique=True,
     )
 
+    is_admin = models.BooleanField(default=False, verbose_name="Administrador")
+
     objects = UserManager()
 
     USERNAME_FIELD = 'email'
