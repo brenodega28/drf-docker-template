@@ -16,6 +16,11 @@
 - Docker
 - PostgreSQL
 
+## About
+Django template using Django Rest Framework (DRF) and Docker.
+
+Also includes a Makefile with the most used commands.
+
 ## How to Clone
 
 With the script below its possible to clone this repo without getting the template's commits.
