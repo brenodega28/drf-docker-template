@@ -40,11 +40,13 @@ make superuser-local # Creates account for admin
 make local # Starts server
 ```
 
-## Other Commands
+## Makefile Commands
 
 Some other commands stored on the Makefile.
 
 ```bash
+make build # Creates Docker containers
+make local # runs python manage.py runserver
 make migrate-local # runs python manage.py migrate
 make test # runs python manage.py test
 make migrations # runs python manage.py makemigrations
