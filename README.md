@@ -11,7 +11,10 @@
 - Django 3.0
 - DRF 3.11
 
-#### <b>Other</b>: Docker
+#### <b>Others</b>:
+
+- Docker
+- PostgreSQL
 
 ## How to Clone
 
@@ -20,7 +23,9 @@ With the script below its possible to clone this repo without getting the templa
 <i>OBS:</i> Change the project_name in the code with the name of your Django project.
 
 ```bash
-git clone --depth=0 https://github.com/brenodega28/drf-docker-template.git project_name
+git clone https://github.com/brenodega28/drf-docker-template.git project_name
+cd project_name
+rm -rf .git && git init
 ```
 
 ## Running Local
@@ -30,8 +35,8 @@ Make sure to create the local.env file _(using local.env.sample as a guide)_ bef
 ```bash
 cp local.env.sample local.env
 make build # first time only
-make local # use this if mac or linux
-make local-windows # use if windows (due to some exposing problems using wsl2)
+make migrate-local # Adds initial migration to DB
+make local # Starts server
 ```
 
 ## Other Commands
@@ -43,5 +48,5 @@ make migrate-local # runs python manage.py migrate
 make test # runs python manage.py test
 make migrations # runs python manage.py makemigrations
 make superuser-local # runs python manage.py createsuperuser
-
+make local-windows # if make local does'nt work with your Windows, try this one instead
 ```
