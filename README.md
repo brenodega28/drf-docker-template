@@ -22,6 +22,7 @@ git clone --depth=0 https://github.com/brenodega28/drf-docker-template.git proje
 Make sure to create the local.env file _(using local.env.sample as a guide)_ before running.
 
 ```bash
+cp local.env.sample local.env
 make build # first time only
 make local # use this if mac or linux
 make local-windows # use if windows (due to some exposing problems using wsl2)
