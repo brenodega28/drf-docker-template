@@ -67,7 +67,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'django.urls'
+ROOT_URLCONF = 'django_main.urls'
 
 TEMPLATES = [
     {
