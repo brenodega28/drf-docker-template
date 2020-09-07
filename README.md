@@ -36,6 +36,7 @@ Make sure to create the local.env file _(using local.env.sample as a guide)_ bef
 cp local.env.sample local.env
 make build # first time only
 make migrate-local # Adds initial migration to DB
+make superuser-local # Creates account for admin
 make local # Starts server
 ```
 

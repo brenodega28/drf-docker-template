@@ -87,7 +87,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django.wsgi.application'
+WSGI_APPLICATION = 'django_main.wsgi.application'
 
 AUTH_USER_MODEL = "core.User"
 
