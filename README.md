@@ -13,6 +13,8 @@
 
 With the script below its possible to clone this repo without getting the template's commits.
 
+<i>OBS:</i> Change the project_name in the code with the name of your Django project.
+
 ```bash
 git clone --depth=0 https://github.com/brenodega28/drf-docker-template.git project_name
 ```
